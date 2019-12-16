@@ -13,7 +13,7 @@
     transform: scale(1);
 }
 .over:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition-duration: .75s;
 }
 .layout1{
@@ -269,8 +269,8 @@ div.col-lg-8.ryan{
     padding-right: 0px;
 }
 div.col-lg-4.jack{
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 img.d-block.w-100{
     padding: 0px 0px 8px;
@@ -286,6 +286,7 @@ div.container.downs{
     position: absolute;
     bottom: -10px;
     right: 28px;
+    z-index: 2;
   }
   p.erms{
       font-weight: 800;
